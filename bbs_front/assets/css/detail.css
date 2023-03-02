@@ -1,0 +1,94 @@
+#detail .container>div:first-child {
+  margin-bottom: 6.5rem;
+}
+
+#detail .container .after {
+  margin: 0 auto 3.5rem auto;
+  width: 50%;
+  font-size: 2.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+#detail .container strong {
+  margin: 0 auto;
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* #detail .board {
+  outline: 1px solid #000;
+} */
+
+#detail .board>.bHead {
+  border: .1rem solid #d9d9d9;
+
+}
+
+#detail .board>.bHead>h4 {
+  padding: 1rem 0;
+  border-bottom: .1rem solid #d9d9d9;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+#detail .board>.bHead>.bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#detail .board>.bHead>.bottom>div {
+  display: flex;
+  gap: 1.5rem;
+  padding: .5rem 1.5rem;
+}
+
+#detail .board>.bHead>.bottom>div>strong {
+  font-size: 1.5rem;
+}
+
+#detail .board>.bHead>.bottom>div:nth-child(-n+2) {
+  border-right: .1rem solid #d9d9d9;
+}
+
+#detail .board>.bBody {
+  border-bottom: .1rem solid #d9d9d9;
+  border-left: .1rem solid #d9d9d9;
+  border-right: .1rem solid #d9d9d9;
+  padding: 3.5rem;
+  text-align: left;
+}
+
+#detail .board>.bBody>p {
+  font-size: 1.5rem;
+}
+
+#detail .board>.bFoot {
+  padding: 2rem 0;
+}
+
+#detail .board>.bFoot>.btnBox {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+#detail .board>.bFoot>.btnBox>button {
+  border: .1rem solid #f9f9f9;
+  padding: 1rem 1.5rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+#detail .board>.bFoot>.btnBox>button:first-child {
+  background-color: #444;
+  color: #fff;
+}
+
+#detail .board>.bFoot>.btnBox>button:last-child {
+  background-color: #f9f9f9;
+  color: #444;
+  font-weight: 600;
+}
