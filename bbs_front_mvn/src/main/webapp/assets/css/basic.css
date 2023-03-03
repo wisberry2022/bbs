@@ -1,0 +1,31 @@
+.bg_set {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  width: 120rem;
+}
+
+.after {
+  position: relative;
+}
+
+.after::after {
+  content: '';
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+
+  height: .2rem;
+  background-color: #ff0000;
+
+}
+
+section {
+  padding: 10rem 0;
+}

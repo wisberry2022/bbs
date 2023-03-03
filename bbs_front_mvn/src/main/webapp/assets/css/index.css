@@ -1,0 +1,289 @@
+#overHeader {
+  border-bottom: .1rem solid #ddd;
+}
+
+#overHeader ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#overHeader ul>li>a {
+  display: block;
+  padding: .5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+header {
+  border-bottom: .1rem solid #ddd;
+}
+
+header>.container>nav {
+  display: flex;
+  align-items: center;
+}
+
+header>.container>nav>* {
+  flex: 1;
+}
+
+header>.container>nav h1 {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+header>.container>nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+header>.container>nav ul:first-child {
+  justify-content: flex-start;
+}
+
+header>.container>nav ul:last-child {
+  justify-content: flex-end;
+}
+
+header ul>li>a {
+  display: block;
+  padding: 3rem 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+header+figure {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+  background-image: url("../img/section_bg.jpg");
+}
+
+header+figure>h2 {
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(0, -50%);
+  display: block;
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+section .container>div:first-child {
+  margin-bottom: 7rem;
+}
+
+section .container div {
+  text-align: center;
+}
+
+section .container>div h3 {
+  margin: 0 auto 3.5rem auto;
+  width: 50%;
+  font-size: 2.9rem;
+  font-weight: 500;
+}
+
+section .container>div strong {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#searchBox {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem 0;
+  margin-bottom: 5rem;
+  background-color: #f9f9f9;
+}
+
+#searchBox .warn {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #ff0000;
+	line-height: 4rem;
+}
+
+#searchBox .leftBox,
+#searchBox .rightBox {
+  display: flex;
+  align-items: center;
+}
+
+#searchBox .leftBox>strong {
+  display: block;
+  margin-right: 1.5rem;
+  padding: 0 1rem;
+}
+
+#searchBox .leftBox>div {
+  display: flex;
+  gap: .5rem;
+}
+
+#searchBox .leftBox input,
+#searchBox .rightBox>input {
+  border: .1rem solid #ddd;
+  padding: .5rem 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#searchBox .rightBox {
+  gap: .5rem;
+}
+
+#searchBox .rightBox>select {
+  border: .1rem solid #ddd;
+  padding: .5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+#searchBox .rightBox>input {
+  margin-right: .5rem;
+}
+
+#searchBox .rightBox>button {
+  border: none;
+  padding: .5rem .8rem;
+  font-size: 1.9rem;
+  font-weight: 600;
+  background-color: #ddd;
+}
+
+section .container .table {
+  margin-bottom: 4.5rem;
+  border-bottom: .1rem solid #d9d9d9;
+}
+
+section .container .table .thead {
+  border-top: .1rem solid #d9d9d9;
+  border-bottom: .1rem solid #d9d9d9;
+}
+
+section .container .table>.tbody>.record,
+section .container .table>.thead>ul {
+  display: flex;
+}
+
+section .container .table>.thead>ul>li {
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+section .container .table>.tbody>.record>li {
+  font-weight: 400;
+}
+
+section .container .table>.tbody>.record:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+section .container .table>.tbody>.record>li:nth-child(-n+4),
+section .container .table>.thead>ul>li:nth-child(-n+4) {
+  border-right: .1rem solid #d9d9d9;
+}
+
+section .container .table>.tbody>.record>li:first-child,
+section .container .table>.thead>ul>li:first-child {
+  width: 10%;
+}
+
+section .container .table>.tbody>.record>li>strong {
+  padding: 1.5rem 0;
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+section .container .table>.tbody>.record>li:nth-child(2),
+section .container .table>.thead>ul>li:nth-child(2) {
+  width: 50%;
+}
+
+section .container .table>.tbody>.record>li:nth-child(3),
+section .container .table>.thead>ul>li:nth-child(3) {
+  width: 15%;
+}
+
+section .container .table>.tbody>.record>li:nth-child(4),
+section .container .table>.thead>ul>li:nth-child(4) {
+  width: 15%;
+}
+
+section .container .table>.tbody>.record>li:last-child,
+section .container .table>.thead>ul>li:last-child {
+  width: 10%;
+}
+
+#bottomBox {
+  position: relative;
+  width: 100%;
+}
+
+#pagination {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+}
+
+#pagination button {
+  position: relative;
+  border: .1rem solid #888;
+  padding: 0 1.3rem;
+  width: 4rem;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+}
+
+#pagination button>i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#pagination>ul {
+  display: flex;
+  gap: .5rem;
+}
+
+#pagination>ul>li.current {
+	background-color: #ff2e16;
+	color: #fff;
+}
+
+#pagination>ul>li>strong {
+  border: .1rem solid #d9d9d9;
+  display: block;
+  padding: 1rem 1.3rem;
+  font-size: 1.5rem;
+}
+
+#bottomBox>.btnBox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10%;
+  height: 100%;
+  display: flex;
+}
+
+#bottomBox>.btnBox>button {
+  border: none;
+  width: 100%;
+  background-color: #eee;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}

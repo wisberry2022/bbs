@@ -1,0 +1,92 @@
+#modalBox {
+	outline: 1px solid #000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0);
+	transition: .3s;
+	visibility: hidden;
+}
+
+#modalBox.active {
+	background-color: rgba(0,0,0,0.3);
+	visibility: visible;
+}
+
+#modalBox>.update {
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: .1rem solid #f9f9f9;
+	width: 60rem;
+	background-color: #fff;
+	opacity: 0;
+	transition: .5s;
+}
+
+#modalBox.active .update {
+	top: 50%;
+	opacity: 1;
+}
+
+#modalBox>.update>.uTop {
+	position: relative;
+	border-bottom: .1rem solid #ddd;
+	text-align: right;
+}
+
+#modalBox>.update>.uTop>i {
+	border-left: .1rem solid #ddd;
+	width: 3rem;
+	height: 100%;
+	line-height: 3rem;
+	text-align: center;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+#modalBox>.update>.uBtm {
+	padding: 2rem 1.5rem;
+	text-align: center;
+}
+
+#modalBox>.update>.uBtm>.minContainer>strong {
+	display: block;
+	margin-bottom: 1.5rem;
+	font-size: 1.9rem;
+	font-weight: 600;
+	text-align: center;	
+}
+
+#modalBox>.update>.uBtm>.minContainer>div {
+	display: flex;
+	justify-content: center;
+	gap: .5rem;
+}
+
+#modalBox>.update>.uBtm>.minContainer>div input {
+	border: .1rem solid #d9d9d9;
+	padding: .5rem 1rem;
+	font-size: 1.6rem;
+}
+
+#modalBox>.update>.uBtm>.minContainer>div button {
+	border: none;
+	outline: none;
+	padding: .5rem;
+	width: 8rem;
+	font-size: 1.6rem;
+	background-color: #ddd;
+}
+
+#modalBox>.update>.uBtm .warn {
+	display: block;
+	margin-top: 1.5rem;
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: #ff0000;
+	
+}
